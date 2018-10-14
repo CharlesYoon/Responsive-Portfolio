@@ -1,0 +1,73 @@
+/*This is the base*/
+
+/* background */
+body{
+    background-color: lightgray;
+}
+/* header*/
+.navbar-header{
+    width: 960px;
+    margin-left: 18.8%;
+}
+.navbar-brand{
+    background-color: #4aaaa5;
+    padding: 1rem 3rem;
+    font-weight: bolder;
+    color: white;
+}
+.nav-item{
+   margin-right: -50%;
+   padding-right: 11.9rem;
+   padding-left: 11.9rem;
+}
+#header{
+    background-color: whitesmoke;
+}
+/* description */
+#content{
+    width: 970px;
+    background-color: whitesmoke;
+    margin-top: 1%;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    border: gray;
+}
+/* footer */
+.footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+#tealBar{
+    background-color: #4aaaa5;
+}
+#grayBar{
+    background-color: gray;
+}
+
+@media only screen and (min-width: 980px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+        width: 100%;
+    }
+}
+
+
+
+@media only screen and (min-width: 768px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+        width: 100%;
+    }
+}
+
+
+
+@media only screen and (min-width: 640px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+        width: 100%;
+    }
+}
